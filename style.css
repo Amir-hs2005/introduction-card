@@ -3,3 +3,48 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    box-sizing: border-box;
+    width: 500px; height: 400px;
+    background-color: #fff;
+    margin: auto; 
+    margin-top: 80px;
+    padding: 25px 0;
+    box-shadow: 0 0 20px #474444;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 120px;
+    display: block;
+    margin: auto;
+    border: 2px solid 5c5656;
+    border-radius: 50%;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px solid #5c5656;
+    width: 190px;
+    margin: 25px auto;
+    color: #4c4d4c;
+
+}
+
+.text{
+    text-align: center;
+    color: #4c4d4c;
+}
+
+.social-media{
+    height: 60px;
+    background-color: #474444;
+    text-align: center;
+}
+
+.social-media img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
